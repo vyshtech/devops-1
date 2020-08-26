@@ -5,5 +5,8 @@ stage("prepare"){
 stage("ansiblke-playbook"){
 ansible -i host all -m ping
 }
+  stage("slck notification") {
+   slack.notify("channel: name") 
+  }
 
 }
