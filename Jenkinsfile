@@ -14,3 +14,6 @@ stage("dev stage")
   }
 
 }
+def slacknotification(){
+  
+}
